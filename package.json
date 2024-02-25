@@ -1,0 +1,45 @@
+{
+  "name": "backend-boilerplate",
+  "version": "1.0.0",
+  "description": "backend infrastructure boilerplate",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louispawaon/backend-boilerplate.git"
+  },
+  "keywords": [
+    "backend",
+    "boilerplate"
+  ],
+  "author": "Louis Miguel Pawaon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louispawaon/backend-boilerplate/issues"
+  },
+  "homepage": "https://github.com/louispawaon/backend-boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "prisma": "^5.10.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.20",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "typescript-eslint": "^7.0.2"
+  }
+}
